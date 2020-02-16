@@ -1,3 +1,6 @@
+
+// This version generate different pattern each time
+
 // Setup game level
 var gameLevel = 1;
 var clickCount = 0;
@@ -86,7 +89,6 @@ function gameResult() {
         }, 1000*i);
       }
     }, 1000);
-    // selectedColorPattern = [];
   }
   else {
     playSound("wrong");
